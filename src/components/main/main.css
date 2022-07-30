@@ -1,0 +1,26 @@
+.form {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
+}
+
+.form__button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  padding: 1rem;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form__input {
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent: 5px;
+    padding: 1rem;
+}
+

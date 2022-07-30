@@ -1,0 +1,18 @@
+.header {
+    height: 4rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 1.3rem;
+}
+
+.header__img {
+    height: 100%;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    
+}
+.header__title {
+    font-size: 1.6rem;
+}
